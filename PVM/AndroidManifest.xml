@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pvm"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.pvm.Login"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.pvm.Registration"
+            android:label="@string/title_activity_registration" >
+        </activity>
+        <activity
+            android:name="com.example.pvm.Faculty"
+            android:label="@string/title_activity_faculty" >
+        </activity>
+        <activity
+            android:name="com.example.pvm.Student"
+            android:label="@string/title_activity_student" >
+        </activity>
+        <activity
+            android:name="com.example.pvm.First"
+            android:label="@string/title_activity_first" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.pvm.Secound"
+            android:label="@string/title_activity_secound" >
+        </activity>
+        <activity
+            android:name="com.example.pvm.Message"
+            android:label="@string/title_activity_message" >
+        </activity>
+        <activity
+            android:name="com.example.pvm.Mail"
+            android:label="@string/title_activity_mail" >
+        </activity>
+        <activity
+            android:name="com.example.pvm.Contacts"
+            android:label="@string/title_activity_contacts" >
+        </activity>
+        <activity
+            android:name="com.example.pvm.Cont"
+            android:label="@string/title_activity_cont" >
+        </activity>
+    </application>
+    android:name="com.example.pvm.Registration"
+    GlobalClasss l
+
+</manifest>
